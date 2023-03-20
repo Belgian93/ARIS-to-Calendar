@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Aris to Calendar",
+  "description": "This extension gives the possibility to import your work roster from  ARIS into google Calendar. It requires the user to enter their stamnummer in the extension settings",
+  "version": "0.1",
+  "action": {
+    "default_popup": "/menu/menu.html",
+    "default_icon": "/images/ARIS_to_Calendar_logo.png"
+  },
+  "content_scripts": [
+    {
+      "js": [ "scripts/ARIS_script.js" ]
+    }
+  ]
+}
